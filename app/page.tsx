@@ -715,6 +715,19 @@ export default function ComfortWorldPG() {
                 </Link>
               </div>
             </div>
+            <div className="mt-4 pt-4 border-t border-gray-700">
+              <p className="text-gray-400 text-sm">
+                Made with ❤️ by{" "}
+                <a
+                  href="https://anantait.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-600 hover:text-orange-500 font-medium transition-colors"
+                >
+                  Ananta IT
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </footer>
