@@ -25,7 +25,9 @@ html {
 }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body className={`${GeistSans.variable} ${GeistMono.variable}`} suppressHydrationWarning={true}>
+        {children}
+      </body>
     </html>
   )
 }

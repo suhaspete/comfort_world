@@ -100,7 +100,7 @@ export default function ComfortWorldPG() {
           </div>
           <div className="mt-16">
             <Image
-              src="/placeholder.svg?height=400&width=800"
+              src="/images/gallery/building-exterior.jpg"
               alt="Comfort World PG Building"
               width={800}
               height={400}
@@ -216,14 +216,14 @@ export default function ComfortWorldPG() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="space-y-6">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/images/gallery/room-1.jpg"
                 alt="Comfortable Room"
                 width={400}
                 height={300}
                 className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
               />
               <Image
-                src="/placeholder.svg?height=250&width=400"
+                src="/images/gallery/dining-area.jpg"
                 alt="Dining Area"
                 width={400}
                 height={250}
@@ -232,14 +232,14 @@ export default function ComfortWorldPG() {
             </div>
             <div className="space-y-6">
               <Image
-                src="/placeholder.svg?height=250&width=400"
+                src="/images/gallery/kitchen-area.jpg"
                 alt="Kitchen Area"
                 width={400}
                 height={250}
                 className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
               />
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/images/gallery/tv-lounge.jpg"
                 alt="TV Lounge"
                 width={400}
                 height={300}
@@ -248,14 +248,14 @@ export default function ComfortWorldPG() {
             </div>
             <div className="space-y-6">
               <Image
-                src="/placeholder.svg?height=300&width=400"
-                alt="Building Exterior"
+                src="/images/gallery/room-2.jpg"
+                alt="Another Comfortable Room"
                 width={400}
                 height={300}
                 className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
               />
               <Image
-                src="/placeholder.svg?height=250&width=400"
+                src="/images/gallery/common-area.jpg"
                 alt="Common Area"
                 width={400}
                 height={250}
@@ -373,7 +373,7 @@ export default function ComfortWorldPG() {
               </div>
               <div>
                 <Image
-                  src="/placeholder.svg?height=400&width=500"
+                  src="/images/gallery/building-exterior.jpg"
                   alt="About Comfort World PG"
                   width={500}
                   height={400}
