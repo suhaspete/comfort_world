@@ -74,14 +74,15 @@ export default function ComfortWorldPG() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 font-medium">Your Home Away From Home</p>
             <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Experience the perfect blend of comfort, safety, and cleanliness with our 7+ years of trusted service in
-              providing safe, clean, and comfortable accommodation for students and working professionals.
+              Experience the perfect blend of comfort, safety, and cleanliness with our 7+ years of trusted service
+              across multiple locations in Bangalore, providing safe, clean, and comfortable accommodation for students
+              and working professionals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-lg px-8 py-3" asChild>
-                <a href="tel:+918722333244">
+                <a href="tel:+919535443273">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call Now: 87223 33244
+                  Call Now: 95354 43273
                 </a>
               </Button>
               <Button
@@ -92,7 +93,7 @@ export default function ComfortWorldPG() {
               >
                 <a href="https://wa.me/919535443273" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="h-5 w-5 mr-2" />
-                  WhatsApp: 95354 43273
+                  WhatsApp Us
                 </a>
               </Button>
             </div>
@@ -291,7 +292,7 @@ export default function ComfortWorldPG() {
                   </div>
                   <div>
                     <p className="font-semibold">Rahul Sharma</p>
-                    <p className="text-sm text-gray-500">Software Engineer</p>
+                    <p className="text-sm text-gray-500">Comfort 'A' Block Boys</p>
                   </div>
                 </div>
               </CardContent>
@@ -314,7 +315,7 @@ export default function ComfortWorldPG() {
                   </div>
                   <div>
                     <p className="font-semibold">Priya Patel</p>
-                    <p className="text-sm text-gray-500">MBA Student</p>
+                    <p className="text-sm text-gray-500">Comfort 'B' Block Girls PG</p>
                   </div>
                 </div>
               </CardContent>
@@ -337,7 +338,7 @@ export default function ComfortWorldPG() {
                   </div>
                   <div>
                     <p className="font-semibold">Amit Kumar</p>
-                    <p className="text-sm text-gray-500">Marketing Executive</p>
+                    <p className="text-sm text-gray-500">BMSIT Student</p>
                   </div>
                 </div>
               </CardContent>
@@ -388,140 +389,223 @@ export default function ComfortWorldPG() {
       <section id="contact" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">📍 Location & Contact</h2>
-            <p className="text-lg text-gray-600">Get in touch with us or visit our location</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">📍 Our Locations Across Bangalore</h2>
+            <p className="text-lg text-gray-600">Multiple convenient locations to serve you better</p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
-            {/* Contact Information */}
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Contact Information</h3>
-              <div className="space-y-6">
-                <div className="flex items-center">
-                  <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                    <Phone className="h-6 w-6 text-orange-600" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-800">Phone Numbers</p>
-                    <p className="text-gray-600">
-                      <a href="tel:+918722333244" className="hover:text-orange-600">
-                        87223 33244
-                      </a>{" "}
-                      |
-                      <a href="tel:+919535443273" className="hover:text-orange-600">
-                        {" "}
-                        95354 43273
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-center">
-                  <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                    <MessageCircle className="h-6 w-6 text-orange-600" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-800">WhatsApp</p>
-                    <p className="text-gray-600">Quick response on WhatsApp</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center">
-                  <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                    <Mail className="h-6 w-6 text-orange-600" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-800">Email</p>
-                    <p className="text-gray-600">info@comfortworldpg.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <MapPin className="h-6 w-6 text-orange-600" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-800">Address</p>
-                    <p className="text-gray-600">
-                      Comfort World PG
-                      <br />
-                      [Your Complete Address]
-                      <br />
-                      City, State - PIN Code
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <Button className="bg-orange-600 hover:bg-orange-700 flex-1" asChild>
-                  <a href="tel:+918722333244">
-                    <Phone className="h-4 w-4 mr-2" />
-                    Call Now
-                  </a>
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border-orange-600 text-orange-600 hover:bg-orange-50 flex-1 bg-transparent"
-                  asChild
-                >
-                  <a href="https://wa.me/919535443273" target="_blank" rel="noopener noreferrer">
-                    <MessageCircle className="h-4 w-4 mr-2" />
-                    WhatsApp
-                  </a>
-                </Button>
-              </div>
+          {/* Contact Numbers */}
+          <div className="text-center mb-12">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6">Contact Us</h3>
+            <div className="flex flex-wrap justify-center gap-4 mb-6">
+              <Button className="bg-orange-600 hover:bg-orange-700" asChild>
+                <a href="tel:+919535443273">
+                  <Phone className="h-4 w-4 mr-2" />
+                  95354 43273
+                </a>
+              </Button>
+              <Button className="bg-orange-600 hover:bg-orange-700" asChild>
+                <a href="tel:+919035186912">
+                  <Phone className="h-4 w-4 mr-2" />
+                  90351 86912
+                </a>
+              </Button>
+              <Button className="bg-orange-600 hover:bg-orange-700" asChild>
+                <a href="tel:+918722333244">
+                  <Phone className="h-4 w-4 mr-2" />
+                  87223 33244
+                </a>
+              </Button>
             </div>
-
-            {/* Contact Form */}
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Book Now / Inquire</h3>
-              <Card>
-                <CardContent className="p-6">
-                  <form className="space-y-4">
-                    <div className="grid md:grid-cols-2 gap-4">
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
-                        <Input placeholder="Enter your full name" />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
-                        <Input placeholder="Enter your phone number" />
-                      </div>
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                      <Input type="email" placeholder="Enter your email" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">Room Preference</label>
-                      <select className="w-full p-2 border border-gray-300 rounded-md">
-                        <option>Private Room</option>
-                        <option>Double Sharing</option>
-                        <option>Triple Sharing</option>
-                      </select>
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                      <Textarea placeholder="Any specific requirements or questions..." rows={4} />
-                    </div>
-                    <Button className="w-full bg-orange-600 hover:bg-orange-700">Submit Inquiry</Button>
-                  </form>
-                </CardContent>
-              </Card>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Button
+                variant="outline"
+                className="border-orange-600 text-orange-600 hover:bg-orange-50 bg-transparent"
+                asChild
+              >
+                <a href="https://wa.me/919535443273" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="h-4 w-4 mr-2" />
+                  WhatsApp
+                </a>
+              </Button>
+              <Button
+                variant="outline"
+                className="border-orange-600 text-orange-600 hover:bg-orange-50 bg-transparent"
+                asChild
+              >
+                <a href="mailto:comfortworldonline@gmail.com">
+                  <Mail className="h-4 w-4 mr-2" />
+                  Email Us
+                </a>
+              </Button>
             </div>
           </div>
 
-          {/* Map Placeholder */}
-          <div className="mt-12">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Our Location</h3>
-            <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-2" />
-                <p className="text-gray-600">Google Maps Integration</p>
-                <p className="text-sm text-gray-500">Embed your location map here</p>
-              </div>
-            </div>
+          {/* Locations Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {/* Comfort World 'A' Block */}
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Comfort World 'A' Block</h3>
+                <div className="flex items-start mb-4">
+                  <MapPin className="h-5 w-5 text-orange-600 mr-2 mt-1 flex-shrink-0" />
+                  <p className="text-gray-600 text-sm">
+                    UWS Residential, RTO Main road, Singanayakanahalli, Yelahanka, Bangalore - 560064
+                  </p>
+                </div>
+                <Button className="w-full bg-orange-600 hover:bg-orange-700" asChild>
+                  <a href="https://maps.app.goo.gl/ex3sEO3EYYRrSEJ4Z" target="_blank" rel="noopener noreferrer">
+                    <MapPin className="h-4 w-4 mr-2" />
+                    View on Maps
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Comfort World 'B' Block */}
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Comfort World 'B' Block</h3>
+                <div className="flex items-start mb-4">
+                  <MapPin className="h-5 w-5 text-orange-600 mr-2 mt-1 flex-shrink-0" />
+                  <p className="text-gray-600 text-sm">
+                    Avalahalli, Behind Sai Baba, near Bmsit college, Yelahanka, Bangalore - 560064
+                  </p>
+                </div>
+                <Button className="w-full bg-orange-600 hover:bg-orange-700" asChild>
+                  <a href="https://maps.app.goo.gl/9c8M1XptkuId1S4oX" target="_blank" rel="noopener noreferrer">
+                    <MapPin className="h-4 w-4 mr-2" />
+                    View on Maps
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Comfort World 'C' Block */}
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Comfort World 'C' Block</h3>
+                <div className="flex items-start mb-4">
+                  <MapPin className="h-5 w-5 text-orange-600 mr-2 mt-1 flex-shrink-0" />
+                  <p className="text-gray-600 text-sm">
+                    72 SURYA VAMSHI LAYOUT NAGENAHALLI BANGALORE - 64, Karnataka 560064
+                  </p>
+                </div>
+                <Button className="w-full bg-orange-600 hover:bg-orange-700" asChild>
+                  <a href="https://maps.app.goo.gl/NEJudvQsr8u07zOCv" target="_blank" rel="noopener noreferrer">
+                    <MapPin className="h-4 w-4 mr-2" />
+                    View on Maps
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Comfort World 'D' Block */}
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Comfort World 'D' Block</h3>
+                <div className="flex items-start mb-4">
+                  <MapPin className="h-5 w-5 text-orange-600 mr-2 mt-1 flex-shrink-0" />
+                  <p className="text-gray-600 text-sm">
+                    59 SURYA VAMSHI LAYOUT NAGENAHALLI BANGALORE - 64, Karnataka 560064
+                  </p>
+                </div>
+                <Button className="w-full bg-orange-600 hover:bg-orange-700" asChild>
+                  <a href="https://maps.app.goo.gl/ex3sEO3EYYRrSEJ4Z" target="_blank" rel="noopener noreferrer">
+                    <MapPin className="h-4 w-4 mr-2" />
+                    View on Maps
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Comfort World 'A' Block Girls */}
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Comfort World 'A' Block Girls</h3>
+                <div className="flex items-start mb-4">
+                  <MapPin className="h-5 w-5 text-orange-600 mr-2 mt-1 flex-shrink-0" />
+                  <p className="text-gray-600 text-sm">
+                    Rs square, Site no41 Near sriram suhana apartment, avalahalli village, yelahanka, Bangalore-64,
+                    Karnataka 560064
+                  </p>
+                </div>
+                <Button className="w-full bg-orange-600 hover:bg-orange-700" asChild>
+                  <a href="https://maps.app.goo.gl/SI5ehLdi5XtkqG6QG" target="_blank" rel="noopener noreferrer">
+                    <MapPin className="h-4 w-4 mr-2" />
+                    View on Maps
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Comfort World 'B' Block Girls */}
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Comfort World 'B' Block Girls</h3>
+                <div className="flex items-start mb-4">
+                  <MapPin className="h-5 w-5 text-orange-600 mr-2 mt-1 flex-shrink-0" />
+                  <p className="text-gray-600 text-sm">
+                    Rs square, Site no3 Near sriram suhana apartment, avalahalli village, yelahanka, Bangalore-64,
+                    Karnataka 560064
+                  </p>
+                </div>
+                <Button className="w-full bg-orange-600 hover:bg-orange-700" asChild>
+                  <a href="https://maps.app.goo.gl/SI5ehLdi5XtkqG6QG" target="_blank" rel="noopener noreferrer">
+                    <MapPin className="h-4 w-4 mr-2" />
+                    View on Maps
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Contact Form */}
+          <div className="max-w-2xl mx-auto">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Book Now / Inquire</h3>
+            <Card>
+              <CardContent className="p-6">
+                <form className="space-y-4">
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                      <Input placeholder="Enter your full name" />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                      <Input placeholder="Enter your phone number" />
+                    </div>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                    <Input type="email" placeholder="Enter your email" />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Preferred Location</label>
+                    <select className="w-full p-2 border border-gray-300 rounded-md">
+                      <option>Comfort World 'A' Block</option>
+                      <option>Comfort World 'B' Block</option>
+                      <option>Comfort World 'C' Block</option>
+                      <option>Comfort World 'D' Block</option>
+                      <option>Comfort World 'A' Block Girls</option>
+                      <option>Comfort World 'B' Block Girls</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Room Preference</label>
+                    <select className="w-full p-2 border border-gray-300 rounded-md">
+                      <option>Private Room</option>
+                      <option>Double Sharing</option>
+                      <option>Triple Sharing</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                    <Textarea placeholder="Any specific requirements or questions..." rows={4} />
+                  </div>
+                  <Button className="w-full bg-orange-600 hover:bg-orange-700">Submit Inquiry</Button>
+                </form>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -592,23 +676,29 @@ export default function ComfortWorldPG() {
               <div className="space-y-2 text-gray-400">
                 <p>
                   📞{" "}
-                  <a href="tel:+918722333244" className="hover:text-orange-600">
-                    87223 33244
-                  </a>
-                </p>
-                <p>
-                  📱{" "}
                   <a href="tel:+919535443273" className="hover:text-orange-600">
                     95354 43273
                   </a>
                 </p>
                 <p>
-                  ✉️{" "}
-                  <a href="mailto:info@comfortworldpg.com" className="hover:text-orange-600">
-                    info@comfortworldpg.com
+                  📱{" "}
+                  <a href="tel:+919035186912" className="hover:text-orange-600">
+                    90351 86912
                   </a>
                 </p>
-                <p>📍 Your Address Here</p>
+                <p>
+                  📞{" "}
+                  <a href="tel:+918722333244" className="hover:text-orange-600">
+                    87223 33244
+                  </a>
+                </p>
+                <p>
+                  ✉️{" "}
+                  <a href="mailto:comfortworldonline@gmail.com" className="hover:text-orange-600">
+                    comfortworldonline@gmail.com
+                  </a>
+                </p>
+                <p>📍 Multiple Locations in Bangalore</p>
               </div>
             </div>
           </div>
